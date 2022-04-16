@@ -1,0 +1,18 @@
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+zmodule completion
+zmodule git-info
+zmodule fzf
+zmodule pacman
+
+zmodule agkozak/zsh-z
+zmodule romkatv/powerlevel10k --use degit
+zmodule zsh-users/zsh-completions
+zmodule zsh-users/zsh-autosuggestions
+zmodule zsh-users/zsh-history-substring-search
+zmodule zdharma-continuum/fast-syntax-highlighting
+zmodule supercrabtree/k
+zmodule hlissner/zsh-autopair
