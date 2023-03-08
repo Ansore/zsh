@@ -8,6 +8,8 @@ export PATH=$PATH:$HOME/.linuxbrew/sbin
 export JAVA_HOME=/home/ansore/.local/java/jdk1.8.0_251
 # java 11
 # export JAVA_HOME=/home/ansore/.local/java/jdk-11.0.10
+# export JAVA_HOME=/home/ansore/.local/java/jdk-17.0.4.1
+# export JAVA_HOME=/home/ansore/.local/java/jdk-19/
 export JAVA_BIN=$JAVA_HOME/bin
 export JAVA_LIB=$JAVA_HOME/lib
 export CLASSPATH=.:JAVA_LIB/tools.jar:$JAVA_LIB/dt.jar

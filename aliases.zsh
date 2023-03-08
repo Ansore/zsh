@@ -7,7 +7,8 @@ alias ra="ranger"
 alias dp="dolphin ./"
 
 # proxy
-alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1088"
+alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+# alias setproxy="export ALL_PROXY=socks5://10.0.0.2:1090"
 alias unsetproxy="unset ALL_PROXY"
 
 # ls
@@ -51,4 +52,4 @@ alias cmi="mkdir build && cd build && cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=0 ..
 alias reboot="systemctl reboot"
 alias poweroff="systemctl poweroff"
 
-alias rm="trash-put"
+# alias rm="trash-put"
