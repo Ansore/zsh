@@ -1,9 +1,9 @@
 # alias
 alias vim="nvim"
-alias nvimconfig="nvim ~/.config/nvim/init.vim"
+alias v="nvim"
 alias s="neofetch"
-alias upgrade_system="sudo pacman -Syu"
-alias ra="ranger"
+alias js="joshuto"
+alias ra="joshuto"
 alias dp="dolphin ./"
 
 # proxy

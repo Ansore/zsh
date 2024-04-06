@@ -33,8 +33,8 @@ export JMETER_HOME=~/.local/apache/apache-jmeter-5.3
 export PATH=$PATH:$JMETER_HOME/bin
 
 # Go
+# export GOROOT=/home/ansore/.local/go
 export GOPATH=/home/ansore/go
-export GOROOT=/home/ansore/.local/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 export GO111MODULE=on
