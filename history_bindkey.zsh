@@ -1,7 +1,7 @@
 # History config
 HISTSIZE=10000
 SAVEHIST=10000
-HISTFILE=/home/ansore/.config/zsh/zsh_history
+HISTFILE=~/.zsh_history
 setopt append_history
 setopt share_history
 setopt long_list_jobs
