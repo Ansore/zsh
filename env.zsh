@@ -68,4 +68,7 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export GEM_HOME=$(ruby -e 'print Gem.user_dir')
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
+# for macos
+PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+
 # export C_INCLUDE_PATH=/usr/lib/modules/$(uname -r)/build/include

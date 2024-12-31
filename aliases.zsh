@@ -2,8 +2,6 @@
 alias vim="nvim"
 alias v="nvim"
 alias s="neofetch"
-alias js="joshuto"
-alias ra="joshuto"
 alias dp="dolphin ./"
 
 # proxy
@@ -52,4 +50,11 @@ alias cmi="mkdir build && cd build && cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=0 ..
 alias reboot="systemctl reboot"
 alias poweroff="systemctl poweroff"
 
-# alias rm="trash-put"
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
