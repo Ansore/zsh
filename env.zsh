@@ -34,7 +34,7 @@ export PATH=$PATH:$JMETER_HOME/bin
 
 # Go
 # export GOROOT=/home/ansore/.local/go
-export GOPATH=/home/ansore/go
+export GOPATH=~/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 export GO111MODULE=on
